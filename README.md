@@ -1,6 +1,6 @@
 # My Hugo Site 😎
 
-[https://alfredvalderrama.website](https://alfredvalderrama.website)
+[https://redopsbay.dev](https://redopsbay.dev)
 
 # Hugo Development 🚧 ##
 
@@ -9,7 +9,7 @@
 ```bash
 docker run --rm -it \
     -v "$(pwd)":/src \
-    klakegg/hugo:0.107.0-ext-ubuntu new site hugo
+    klakegg/hugo:0.111.3-ext-ubuntu new site hugo
 ```
 
 ### Downloading the theme
@@ -24,8 +24,8 @@ git submodule add https://github.com/kaapiandcode/hugo-goa themes/hugo-goa
 docker run --rm -it \
     -v $(pwd):/src \
     -p 1313:1313 \
-    klakegg/hugo:0.107.0-ext-ubuntu \
-  server --disableFastRender --navigateToChanged
+    klakegg/hugo:0.111.3-ext-ubuntu \
+  server --disableFastRender
 ```
 
 
@@ -33,10 +33,10 @@ docker run --rm -it \
 ```bash
 docker run --rm -it \
     -v $(pwd)/hugo:/src \
-    klakegg/hugo:0.107.0-ext-ubuntu \
+    klakegg/hugo:0.111.3-ext-ubuntu \
     --gc \
     --minify \
-    --baseURL "https://alfredvalderrama.website"
+    --baseURL "https://redopsbay.dev"
 ```
 
 ### Running the static site
@@ -46,6 +46,6 @@ docker run --rm \
     -it \
     -p 8080:80 \
     --name nginx-server \
-    -v $(pwd):/usr/share/nginx/html nginx:1.23.4
+    -v $(pwd):/usr/share/nginx/html nginx:alpine
 popd
 ```

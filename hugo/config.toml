@@ -1,15 +1,15 @@
-baseURL = 'https://alfredvalderrama.website'
+baseURL = 'https://redopsbay.dev'
 languageCode = 'en-us'
-title = 'Alfred Valderrama | DevOps and Cloud Native Freelance Consulting'
+title = 'Alfred Valderrama | Cloud Engineer and DevOps Freelance Consultant'
 theme = 'hugo-goa'
 
 [params]
   #editURL = ""
   # Author of the site, will be used in meta information
-  author = "Alfred Valderrama | DevOps and Cloud Native Freelance Consulting"
+  author = "Alfred Valderrama | Cloud Engineer and DevOps Freelance Consultant"
   intro = "Hi!"
   # Description of the site, will be used in meta information
-  description = "I love automation! <br /> I'm a DevOps enthusiast! <br /> Contact me! <br /> Hire me. "
+  description = "I love automation! <br /> I'm a DevOps and Cloud enthusiast! <br /> Contact me! <br /> Hire me. "
   titleSeparator = "-"
   showVisitedLinks = true
   disableBreadcrumb = false
@@ -18,8 +18,8 @@ theme = 'hugo-goa'
   weight = 70
 
 [params.meta]
-  description = "DevOps Engineer"
-  keywords = "devops engineer,cloud engineer,developer,penetration tester"
+  description = "DevOps and Cloud Engineer"
+  keywords = "cloud engineer,devops engineer,developer,penetration tester"
 
 [params.social]
   github = "redopsbay"
